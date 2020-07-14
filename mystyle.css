@@ -1,17 +1,18 @@
-<style>
 
-	.ok {
-	  background-color: lightblue;
+
+body {
+	  background-color: powderblue;
 	  margin-left:100px;
-		}
+	}
 
-	h1 {
+h1 {
   		
   		text-align: center;
+  		color:blue;
 
-		}
+	}
 
-	div {
+div {
 		background-color: teal;
 		display: block;
   		margin-left: auto;
@@ -21,6 +22,4 @@
   		text-align:center;
   		border: 15px gray;
 
-		}
-
-</style>
+	}
