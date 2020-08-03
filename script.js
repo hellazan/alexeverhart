@@ -1,5 +1,5 @@
 
-
+//Slidshow
 var slideIndex = 0;
 showSlides();
 
@@ -17,7 +17,7 @@ function showSlides() {
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
-
+//clickHere button
 function revealMessage() {
 
 	var x = document.getElementById("hiddenMessage");
@@ -31,4 +31,9 @@ function revealMessage() {
 		x.style.display = "none";
 	}
 
+}
+
+//Menu Icon
+function myFunction(x) {
+  x.classList.toggle("change");
 }
